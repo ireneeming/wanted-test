@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import * as STC from "./test2.style.js";
+import * as STC from "./toggle.style.js";
 
 const Test2 = () => {
   const [select, setSelect] = useState("basic");
@@ -21,6 +21,7 @@ const Test2 = () => {
       <STC.ToggleBtnWrap>
         <STC.ToggleBtn>
           <STC.ToggleRadio
+            //input radio
             id="radio01"
             type="radio"
             name="radio"

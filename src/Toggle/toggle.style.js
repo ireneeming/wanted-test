@@ -4,9 +4,9 @@ export const ToggleContainer = styled.div`
   position: relative;
   width: 50%;
   height: 60px;
-
   margin: 0 auto;
   margin-top: 300px;
+  text-align: center;
 `;
 export const ToggleBtnWrap = styled.div`
   width: 100%;
@@ -42,7 +42,6 @@ export const ToggleLabel = styled.label`
   height: 100%;
 
   border-radius: 50px;
-  *background: #ff0000;
 `;
 
 export const ToggleSlider = styled.div`
